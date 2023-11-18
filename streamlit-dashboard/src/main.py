@@ -13,11 +13,11 @@ def main():
     st.session_state.current_page = st.session_state.get(
         "current_page", "Tab 1")
 
-    # Tab 1 - timeline
+    # Tab 1
     if st.sidebar.button("Tab 1"):
         st.session_state.current_page = "Tab 1"
 
-    # Tab 2 - average
+    # Tab 2
     if st.sidebar.button("Tab 2"):
         st.session_state.current_page = "Tab 2"
 
